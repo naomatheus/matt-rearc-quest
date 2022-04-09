@@ -14,6 +14,8 @@ More detailed documentation is in the attached PDF `rearc-quest-diagrams.pdf`. P
 
 - Global yaml files used by Terragrunt to import cloud configurations are not included in this repository.
 
+- There may be some edits to the Javascript 000.js file. I was having a little trouble with permissions on the server, so I added a test route and added `uid` parameters to a couple of routes to see if that would help resolve the issue.
+
 ### If I had more time 
 
 - In a normal scenario, I would find a more secure and automated way to load application files onto a remote host or remote container. Such as...
@@ -90,5 +92,9 @@ post-build:
 - Networking is not my strong suit, and this challenge was a great learning tool for me. I actually know more about VPC Networking for EC2 than I did a few days ago. That's the sign of an awesome and applicable code challenge, Kudos.
 
 - You probably will notice that the web server in my setup is in a public subnet. I understand that this is not ideal. I plan to update this when I get more time.
+
+- The Dockerfile command to handles permission issues in the application's binary files is not fully resolved. If I had more time I would look into this. It may be that in the Dockerfile some more specific user permissions should be set up in advance, or the `chmod` should be issued with as sudo.
+
+#### Finally, 
 
 - I look forward to your code review and please let me know if you have any further questions.
