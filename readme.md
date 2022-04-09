@@ -4,13 +4,16 @@
 ![Hero_Cat](https://github.com/naomatheus/matt-rearc-quest/blob/main/images/IMG-2773.jpg)
 
 ## Our Developer Avatar
-[Character](https://github.com/naomatheus/matt-rearc-quest/blob/main/images/cloudquest_character.png)
+[Cloudquest Avatar](https://github.com/naomatheus/matt-rearc-quest/blob/main/images/cloudquest_character.png)
 
 ### Documentation
 
-More detailed documentation is in the attached PDF `rearc-quest-diagrams.pdf`. Please visit this document link to see how I typically break down and document cloud architecture problems/solutions. This challenge was so good that I will definitely be coming back to the work I did here. I find that coming back to a Confluence page with a high level diagram is a lot easier than sifting through IaC code alone.
+More detailed documentation is in the attached PDF [`rearc-quest-diagrams.pdf`](https://github.com/naomatheus/matt-rearc-quest/blob/images/diagrams/rearc-quest-diagrams.pdf). Along with two diagrams that did not show up in the PDF. [Initial Solution Architecture]() and [If-I-Had-More-Time Architecture]() Please visit this document link to see how I typically break down and document cloud architecture problems/solutions. This challenge was so good that I will definitely be coming back to the work I did here. I find that coming back to a Confluence page with a high level diagram is a lot easier than sifting through IaC code alone.
 
 ### Notes Upon completion
+
+- Proof of completion is in `/completion-screenshots` directory
+    - These are screenshots of visiting the application's test URLs on my Mac M1.
 
 - The folder structure featured here is not necessarily the one I would use on the job. I actually did the work of applying this infrastructure in a separate directory that houses some of my other cloud work, and then copied the relevant files into this "presentation repository."
 
@@ -18,7 +21,9 @@ More detailed documentation is in the attached PDF `rearc-quest-diagrams.pdf`. P
 
 - There may be some edits to the Javascript 000.js file. I was having a little trouble with permissions on the server, so I added a test route and added `uid` parameters to a couple of routes to see if that would help resolve the issue.
 
-### If I had more time 
+- I will deactivate the server, and you won't be able to view the live links unless requested.
+
+### Given more time, I would improve... 
 
 - In a normal scenario, I would find a more secure and automated way to load application files onto a remote host or remote container. Such as...
     - Pulling environment variables from a file in a KMS encrypted S3 bucket. 
