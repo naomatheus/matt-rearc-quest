@@ -1,8 +1,10 @@
 # The Quest begins...
 
 ## Our Hero
+![Hero_Cat](https://github.com/naomatheus/matt-rearc-quest/blob/main/images/IMG-2773.jpg)
 
 ## Our Developer Avatar
+[Character](https://github.com/naomatheus/matt-rearc-quest/blob/main/images/cloudquest_character.png)
 
 ### Documentation
 
