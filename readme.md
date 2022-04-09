@@ -8,7 +8,7 @@
 
 ### Documentation
 
-More detailed documentation is in the attached PDF [`rearc-quest-diagrams.pdf`](https://github.com/naomatheus/matt-rearc-quest/blob/images/diagrams/rearc-quest-diagrams.pdf). Along with two diagrams that did not show up in the PDF. [Initial Solution Architecture]() and [If-I-Had-More-Time Architecture]() Please visit this document link to see how I typically break down and document cloud architecture problems/solutions. This challenge was so good that I will definitely be coming back to the work I did here. I find that coming back to a Confluence page with a high level diagram is a lot easier than sifting through IaC code alone.
+More detailed documentation is in the attached PDF [`rearc-quest-diagrams.pdf`](https://github.com/naomatheus/matt-rearc-quest/blob/images/diagrams/rearc-quest-diagrams.pdf). Along with two diagrams that did not show up in the PDF. [Initial Solution Architecture](https://github.com/naomatheus/matt-rearc-quest/blob/images/diagrams/initial_solution_diagram.jpg) and [If-I-Had-More-Time Architecture](https://github.com/naomatheus/matt-rearc-quest/blob/images/diagrams/proposed_improved_solution.jpg) Please visit this document link to see how I typically break down and document cloud architecture problems/solutions. This challenge was so good that I will definitely be coming back to the work I did here. I find that coming back to a Confluence page with a high level diagram is a lot easier than sifting through IaC code alone.
 
 ### Notes Upon completion
 
